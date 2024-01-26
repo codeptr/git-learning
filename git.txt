@@ -1,0 +1,11 @@
+如何修改指定的 Commit 或一连串 Commit 的 Author？
+
+git rebase -i <Commit ID>
+
+出现的交互界面里，把对应的 commit 条目前面的 pick 改 edit，保存退出
+
+git commit --amend --author "Codeptr <i@qibu.tech>"
+git rebase --continue
+
+如何更改根 commit 方法？
+git rebase -i --root
