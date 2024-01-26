@@ -1,0 +1,6 @@
+Github 提交列表在线显示 committer 名称与本地设置怎样关联？
+
+git config user.name Codeptr
+git config user.email i@qibu.tech
+
+以上本地设置，如果 user.email 跟 Github 绑定 Email 不一致，在线显示 Committer 为 Codeptr，如果 user.email 跟 Github 绑定的 Email 其中一个相同，则在线显示 Committer 为 Github 的登录用户名。
