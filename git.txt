@@ -9,3 +9,14 @@ git rebase --continue
 
 如何更改根 commit 方法？
 git rebase -i --root
+
+-------------------------------------------------
+
+分支如何 Merge 到指定的 Commit？
+
+git merge <Commit ID>
+
+git branch temp <Commit ID>
+git switch <Branch name>
+git merge temp
+git branch -d temp
