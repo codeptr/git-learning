@@ -1,0 +1,2 @@
+How to fix git showing files as modified even if it is unchanged?
+git config core.filemode false
