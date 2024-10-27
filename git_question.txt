@@ -1,2 +1,3 @@
-How to fix git showing files as modified even if it is unchanged?
-git config core.filemode false
+# How to fix git showing files as modified even if it is unchanged?
+git config --global core.filemode false
+git config --global core.autocrlf false
