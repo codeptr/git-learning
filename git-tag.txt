@@ -1,0 +1,5 @@
+# 排序，加减号为倒序
+git tag --sort=-version:refname
+git tag --sort=-v:refname
+git tag --sort=-creatordate
+git tag --sort=-taggerdate
